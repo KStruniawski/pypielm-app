@@ -1,0 +1,13 @@
+version: "3.9"
+
+services:
+  app:
+    build: .
+    ports:
+      - "8501:8501"
+    environment:
+      - PYTORCH_ENABLE_MPS_FALLBACK=1
+    volumes:
+      # Mount PyPIELM source for local development (comment out in production)
+      - ../PyPIELM:/pypielm_src:ro
+    restart: unless-stopped
