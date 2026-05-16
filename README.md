@@ -1,5 +1,9 @@
 # PyPIELM App
 
+[![CI](https://github.com/KStruniawski/pypielm-app/actions/workflows/ci.yml/badge.svg)](https://github.com/KStruniawski/pypielm-app/actions/workflows/ci.yml)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://pypielm-app.streamlit.app)
+[![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](LICENSE.md)
+
 Streamlit web frontend for the [PyPIELM](https://github.com/KStruniawski/pypielm) library —
 a Physics-Informed Extreme Learning Machine framework for solving PDEs.
 
@@ -11,6 +15,12 @@ a Physics-Informed Extreme Learning Machine framework for solving PDEs.
 | 🏋️ Train Model | Upload data → pick model → train → visualise predictions |
 | 🏆 Benchmark Results | Compare models across PDE tasks with interactive leaderboard |
 | 💾 Export Model | Export trained models to PyPIELM checkpoint or TorchScript |
+
+## Live Demo
+
+**[https://pypielm-app.streamlit.app](https://pypielm-app.streamlit.app)**
+
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://pypielm-app.streamlit.app)
 
 ## Screenshots
 
